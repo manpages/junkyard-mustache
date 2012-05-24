@@ -1,0 +1,2 @@
+DESCRIPTION
+This is an example repo that shows how to deal with mustache for Erlang and how to feed it over cowboy.
