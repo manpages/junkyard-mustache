@@ -1,0 +1,1 @@
+rebar create-app appid=junkyard_mustache

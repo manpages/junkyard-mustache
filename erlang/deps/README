@@ -1,0 +1,5 @@
+Dependencies are here. Everything from this directory should be built with 
+
+	rebar get-deps
+
+and never commited to a revision control system.

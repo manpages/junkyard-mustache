@@ -1,0 +1,12 @@
+{application, junkyard_mustache,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { junkyard_mustache_app, []}},
+  {env, []}
+ ]}.
