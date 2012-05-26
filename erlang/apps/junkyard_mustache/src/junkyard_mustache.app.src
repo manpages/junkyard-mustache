@@ -4,8 +4,12 @@
   {vsn, "1"},
   {registered, []},
   {applications, [
-                  kernel,
-                  stdlib
+					kernel,
+					stdlib,
+					crypto,
+					public_key,
+					ssl,
+					cowboy
                  ]},
   {mod, { junkyard_mustache_app, []}},
   {env, []}
