@@ -1,1 +1,2 @@
 rebar create-node nodeid=changeme
+date;rebar -C rebar.conf compile; rebar -C rebar.conf generate force=1;date
