@@ -1,7 +1,7 @@
 {application, junkyard_mustache,
  [
   {description, "Application for testing language translator for Mustache"},
-  {vsn, "1"},
+  {vsn, "0.1.0"},
   {registered, []},
   {applications, [
 					kernel,
@@ -9,6 +9,7 @@
 					crypto,
 					public_key,
 					ssl,
+					fission,
 					cowboy
                  ]},
   {mod, { junkyard_mustache_app, []}},

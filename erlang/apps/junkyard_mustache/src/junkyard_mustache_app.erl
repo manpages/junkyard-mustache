@@ -14,7 +14,7 @@ start() ->
 	application:start(public_key),
 	application:start(ssl),
 	application:start(cowboy),
-	application:start(cowboy_examples).
+	application:start(fission).
 
 start(_Type, _Args) ->
 Dispatch = [
